@@ -1,0 +1,9 @@
+{
+    "name": "usb",
+    "description": "exploration of D-lang bindings to LibUSB-1.0",
+    "authors": ["lonstein@brightboxcharge.com"],
+    "mainSourceFile": "src/usb.d",
+    "targetType": "executable",
+    "targetPath": "bin",
+    "libs": [ "usb-1.0" ]
+}
