@@ -1,0 +1,11 @@
+{
+    "name": "libusb-d",
+    "description": "D-Language bindings for LibUSB-1.0",
+    "authors": ["Ross Lonstein"],
+    "copyright": "Copyright (c) 2015 Brightbox Inc.",
+    "license": "LGPL",
+    "targetType": "library",
+    "targetPath": "build/lib",
+    "sourcePaths": [ "src/" ],
+    "libs": [ "usb-1.0" ]
+}
