@@ -1,0 +1,15 @@
+{
+    "name": "hotplug",
+    "description": "Hotplug example of D-Language bindings to LibUSB-1.0",
+    "authors": ["Ross Lonstein"],
+    "copyright": "Copyright (c) 2015 Brightbox Inc.",
+    "license": "LGPL",
+    "mainSourceFile": "hotplug.d",
+    "targetType": "executable",
+    "sourcePaths": [ "../../src" ],
+    "dependencies": {
+        "logger": "~>0.3.3",
+        "libusb-d": {"path": "../../"}
+    },
+    "libs": [ "usb-1.0" ]
+}
