@@ -4,7 +4,7 @@
  * Authors: Ross Lonstein <lonstein@brightboxcharge.com>
  * License: LGPL
  * Copyright: 2015, Brightbox, Inc.
- * See_Also: http://libusbx.org
+ * See_Also: http://www.libusb.org
  * Notes: Libusb itself is Copyright
  * $(UL
  *   $(LI 2001 Johannes Erdfelt <johannes@erdfelt.com>)
@@ -17,8 +17,6 @@
 module consts;
 
 import structs : libusb_control_setup;
-
-const INT_MAX = 2147483647; // taken from limits.h...
 
 /** LIBUSB API Version */
 const LIBUSBX_API_VERSION =  0x01000102;

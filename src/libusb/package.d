@@ -5,7 +5,7 @@
  * Authors: Ross Lonstein <lonstein@brightboxcharge.com>
  * License: LGPL
  * Copyright: 2015, Brightbox, Inc.
- * See_Also: http://libusbx.org
+ * See_Also: http://www.libusb.org
  * Notes: Libusb itself is Copyright
  * $(UL
  *   $(LI 2001 Johannes Erdfelt <johannes@erdfelt.com>)
