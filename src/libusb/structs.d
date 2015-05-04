@@ -287,7 +287,7 @@ struct libusb_bos_dev_capability_descriptor
     /** Device Capability type */
     ubyte bDevCapabilityType;
     /** Device Capability data (bLength - 3 bytes) */
-    ubyte dev_capability_data[];
+    ubyte[] dev_capability_data;
 };
 
 /**
@@ -313,7 +313,7 @@ struct libusb_bos_descriptor
     ubyte  bNumDeviceCaps;
 
     /** bNumDeviceCap Device Capability Descriptors */
-    libusb_bos_dev_capability_descriptor *dev_capability [];
+    libusb_bos_dev_capability_descriptor[] *dev_capability;
 };
 
 /**
@@ -410,7 +410,7 @@ struct libusb_container_id_descriptor
     ubyte bReserved;
 
     /** 128 bit UUID */
-    ubyte  ContainerID[16];
+    ubyte[16] ContainerID;
 };
 
 /**
@@ -531,7 +531,7 @@ struct libusb_transfer {
     int num_iso_packets;
 
     /** Isochronous packet descriptors, for isochronous transfers only. */
-    libusb_iso_packet_descriptor iso_packet_desc[];
+    libusb_iso_packet_descriptor[] iso_packet_desc;
 };
 
 

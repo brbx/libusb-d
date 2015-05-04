@@ -19,7 +19,7 @@ module funcs;
 import consts;
 import enums;
 import structs;
-core.stdc.limits : INT_MAX;
+import core.stdc.limits : INT_MAX;
 import core.sys.posix.sys.time : timeval;
 
 extern (C):
@@ -444,8 +444,8 @@ char *libusb_get_iso_packet_buffer_simple(libusb_transfer *transfer, uint packet
 
 ushort libusb_cpu_to_le16(const ushort x) {
   union _tmp_union {
-    ubyte  b8[2];
-    ushort b16;
+    ubyte[2]  b8;
+    ushort    b16;
   }
 
   _tmp_union _tmp;
