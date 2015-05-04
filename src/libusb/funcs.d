@@ -19,7 +19,7 @@ module funcs;
 import consts;
 import enums;
 import structs;
-core.stdc.limits : INT_MAX;
+import core.stdc.limits : INT_MAX;
 import core.sys.posix.sys.time : timeval;
 
 extern (C):
