@@ -453,7 +453,7 @@ char *libusb_get_iso_packet_buffer_simple(libusb_transfer *transfer, uint packet
 
 ushort libusb_cpu_to_le16(const ushort x) {
   union _tmp_union {
-    ubyte  b8[2];
+    ubyte[2]  b8;
     ushort b16;
   }
 
