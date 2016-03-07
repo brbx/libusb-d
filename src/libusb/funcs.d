@@ -19,8 +19,17 @@ module funcs;
 import consts;
 import enums;
 import structs;
-core.stdc.limits : INT_MAX;
-import core.sys.posix.sys.time : timeval;
+import core.stdc.limits : INT_MAX;
+
+version( Windows ) {
+  import core.sys.windows.winsock2.d : timeval;
+}
+else version( Posix ) {
+  import core.sys.posix.sys.time : timeval;
+}
+else {
+  static assert(false, "Unsupported platform");
+}
 
 extern (C):
 

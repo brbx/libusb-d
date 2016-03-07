@@ -41,7 +41,5 @@ public {
   import funcs;
 }
 
-import core.sys.posix.sys.time : timeval;
-
 /* Total number of error codes in enum libusb_error */
 const LIBUSB_ERROR_COUNT = EnumMembers!libusb_error.length;
