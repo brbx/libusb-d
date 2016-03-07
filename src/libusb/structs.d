@@ -410,7 +410,7 @@ struct libusb_container_id_descriptor
     ubyte bReserved;
 
     /** 128 bit UUID */
-    ubyte[16]  ContainerID;
+    ubyte[16] ContainerID;
 };
 
 /**
