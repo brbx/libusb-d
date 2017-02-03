@@ -35,10 +35,10 @@ import std.traits;
 import std.typetuple : NoDuplicates;
 
 public {
-  import consts;
-  import enums;
-  import structs;
-  import funcs;
+  import libusb.consts;
+  import libusb.enums;
+  import libusb.structs;
+  import libusb.funcs;
 }
 
 /* Total number of error codes in enum libusb_error */

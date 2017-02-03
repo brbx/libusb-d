@@ -14,9 +14,9 @@
  *
  */
 
-module consts;
+module libusb.consts;
 
-import structs : libusb_control_setup;
+import libusb.structs : libusb_control_setup;
 
 /** LIBUSB API Version */
 const LIBUSBX_API_VERSION =  0x01000102;

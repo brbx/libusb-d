@@ -14,9 +14,9 @@
  *
  */
 
-module structs;
+module libusb.structs;
 
-import enums;
+import libusb.enums;
 
 extern (C):
 

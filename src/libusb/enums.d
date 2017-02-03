@@ -14,7 +14,7 @@
  *
  */
 
-module enums;
+module libusb.enums;
 
 alias libusb_hotplug_flag = LIBUSB_HOTPLUG_ENUM;
 alias libusb_hotplug_event = LIBUSB_HOTPLUG_EVENTS;

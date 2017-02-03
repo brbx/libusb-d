@@ -14,11 +14,11 @@
  *
  */
 
-module funcs;
+module libusb.funcs;
 
-import consts;
-import enums;
-import structs;
+import libusb.consts;
+import libusb.enums;
+import libusb.structs;
 import core.stdc.limits : INT_MAX;
 
 version( Windows ) {
