@@ -80,7 +80,7 @@ int main() {
       libusb_free_config_descriptor(dev_cfg);
     }
   }
-  libusb_free_device_list(devlist, devcount);
+  libusb_free_device_list(devlist, cast(int)devcount);
 
   libusb_exit(ctx);
   
